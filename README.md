@@ -1,6 +1,8 @@
 # GitHub – Cách đưa code lên GitHub
 
 ---
+- Xem mục [Các câu lệnh cơ bản Git](./git-commands.md)
+- Xem mục [Các câu lệnh với GitHub](./git-commands2.md)
 
 ## Bước 1: Tạo tài khoản GitHub và download Git
 
@@ -80,3 +82,23 @@ Các bạn `reload` lại trang `Github` để kiểm tra code đã được đ�
 Như vậy, quá trình đẩy code lên `gitHub` đã thành công.Chúc các bạn có thể làm được!!!
 
 ----------------------------------------------------------------
+
+
+**Hướng dẫn khắc pục lỗi Updates were rejected because the tip of your current branch is behind**
+
+## Cách 1: 
+> git push -f origin master
+## Cách 2:
+- Thực hiện:
+> git pull origin fixbug
+> git push origin fixbug
+- Sau đó:
+> git push -f origin fixbug
+
+
+**_Lưu ý:_**
+- Bạn có thể buộc (force) `push local code` của mình bằng -f
+- Làm điều này, nếu bạn chắc chắn rằng trạng thái commit của bạn ở nhánh local cũng sẽ được ánh xạ trong remote.
+> git push -f origin master
+
+
