@@ -25,6 +25,34 @@ Sau khi các bạn chọn `Create repository` thì sẽ được như hình bên
 
 ## Bước 3: Đưa code lên GitHub
 
+Để đẩy source code lên repository trên GitHub, bạn có thể sử dụng các câu lệnh Git cơ bản sau:
+
+Khởi tạo Git trong thư mục dự án (nếu chưa có):
+```cmd
+git init
+```
+Thêm các tệp vào staging area:
+
+```cmd
+git add .
+```
+Commit các tệp với một thông điệp:
+
+```cmd
+git commit -m "Initial commit"
+```
+Thêm remote repository:
+```cmd
+git remote add origin <URL của repository>
+```
+Đẩy code lên repository:
+```cmd
+git push -u origin master
+```
+Nếu bạn cần thêm thông tin chi tiết hoặc gặp vấn đề gì, cứ cho mình biết nhé! 😊
+
+## Bước 3: Đưa code lên GitHub
+
 Đầu tiên các bạn mở `VSCode` lên vào thư mục mà bạn muốn đưa code lên `GitHub`. Các bạn vào `Terminal` chọn `New Terminal`
 
 ![code lên GitHub](./images/003.png 'code lên GitHub')
