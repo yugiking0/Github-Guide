@@ -27,29 +27,30 @@ Sau khi các bạn chọn `Create repository` thì sẽ được như hình bên
 
 Để đẩy source code lên repository trên GitHub, bạn có thể sử dụng các câu lệnh Git cơ bản sau:
 
-Khởi tạo Git trong thư mục dự án (nếu chưa có):
-```cmd
+- Khởi tạo Git trong thư mục dự án (nếu chưa có):
+```git
 git init
 ```
-Thêm các tệp vào staging area:
 
-```cmd
+- Thêm các tệp vào staging area:
+```git
 git add .
 ```
-Commit các tệp với một thông điệp:
 
-```cmd
+- Commit các tệp với một thông điệp:
+```git
 git commit -m "Initial commit"
 ```
-Thêm remote repository:
-```cmd
+
+- Thêm remote repository:
+```git
 git remote add origin <URL của repository>
 ```
-Đẩy code lên repository:
-```cmd
+
+- Đẩy code lên repository:
+```git
 git push -u origin master
 ```
-Nếu bạn cần thêm thông tin chi tiết hoặc gặp vấn đề gì, cứ cho mình biết nhé! 😊
 
 ## Bước 3: Đưa code lên GitHub
 
